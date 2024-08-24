@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form criation</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <label>Firstname</label>
+        <input type="text"placeholder="Enter your name;" required><br>
+        <label>Lastname</label>
+        <input type="text"placeholder="Enter your Lastname;" required><br>
+        <label>Email</label>
+        <input type="Email" placeholder="Email" required><br>
+        <label>password:</label>
+        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="password" required><br>
+        <label>URL</label>
+        <input type="URL" placeholder="URL"required><br>
+        <label>Age</label>
+        <input type="number" placeholder="AGE" required><br>
+        <label>Gendr</label>
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+        </select><br>
+        <label>Choos your language:</label>
+        <select>
+            <option>TAMIL</option>
+            <option>ENGLISH</option>
+            <option>HINTHI</option>
+            <option>TELUGU</option>
+        </select><br>
+        <label>Address</label>
+        <textarea rows="5"></textarea><br>
+        <label>DOB</label>
+        <input type="date"><br>
+        <button>Submit</button> 
+    </form>
+</body>
+</html>
+
+
